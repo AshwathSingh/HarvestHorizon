@@ -1,6 +1,8 @@
 # HarvestHorizon
+![Screenshot 2024-01-21 at 12 32 20 AM](https://github.com/AshwathSingh/HarvestHorizon/assets/143448570/78c047be-4d39-48e0-9333-6da6265ff4ee)
 
 Welcome to Harvest Horizon, this is a project made by me for the Boilermake Hackathon hosted in Spring 2024.
+
 
 ## Idea
 
