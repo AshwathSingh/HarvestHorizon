@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="img/Untitled (7).png"> 
+        <title> Harvest Horizon </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+        </style>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <!--Nav bar elements-->
+        <div class="hero" id="landingpage">
+            <img src="img/topimage.jpeg" class="back">
+                <nav id="stickynavbar">
+                    <ul>
+                        <li><a href="#landingpage"> <img class="logoimage" src="img/Untitled (7).png"></a></li>
+                    </ul>
+                </nav>
+            <div class="content"> 
+                <h1> The Future is in Your Hands</h1>
+                <a href="#firstpage">LEARN MORE</a>
+            </div>
+        </div>
+        <div class = "container" id="firstpage">
+            <div class="section"> 
+                <div class="containerwhat">
+                    <div class = "text-section"> 
+                        <h1 class="sectionheadericon">🌳</h1>
+                        <h1 class="whyheader"> What is happening? </h1>
+                        <p>
+                            Global farmers face challenges from climate change, extreme weather, and supply chain disruptions, 
+                            including those heightened by the COVID-19 pandemic. Changing temperatures affect crop suitability,
+                             while technological advancements like precision farming offer efficiency but require adaptation. 
+                             To address these complexities, farmers are increasingly adopting sustainable practices such as 
+                             regenerative agriculture to build resilience against climate-related shocks. 
+                             Balancing innovation and sustainability is crucial for the long-term viability of agriculture amid 
+                            evolving global conditions.
+                        </p>     
+                    </div> 
+                    <div class="imagewhat">
+                        <img class = "imagewhatbox" src="img/headerpicture1.jpeg">
+                    </div>
+                 
+                </div> 
+                <a href="#why" class="navbuttons">WHY?</a>
+            </div>
+        </div>
+        <div class="container" id="why">
+                <div class="section"> 
+                    <div class="containerwhat">
+                        <div class = "text-section"> 
+                            <h1 class="sectionheadericon">🧐</h1>
+                            <h1 class="whyheader">Why is it happening? </h1>
+                            <p>
+                                The impending food scarcity crisis in 2050 is primarily driven by a growing global population,
+                                 estimated to reach 9.7 billion people. This surge in population will intensify the 
+                                 demand for food, placing immense pressure on agricultural systems. Climate change, 
+                                 water scarcity, and soil degradation further exacerbate the challenges, 
+                                 impacting crop yields and making sustainable food production more difficult. 
+                                 Urgent efforts are needed to address these issues through sustainable agricultural practices, 
+                                 technological innovations,
+                                 and global cooperation to ensure food security for the growing population.
+                            </p>     
+                        </div>
+                        <div class="imagewhat">
+                            <img class = "imagewhatbox" src="img/worriedfarmer.jpg">
+                        </div>
+                    </div> 
+                    <a href="#game" class="navbuttons"> WANT TO LEARN</a>  
+                </div>  
+        </div>
+        <div class="container" id="game">
+            <div class="section">
+                <div class="containerwhytext">
+                    <h1 class="gameheader"> Play our game to test your knowledge</h1>
+                    <p> Explore the world of food scarcity through our thought-provoking game. Navigate challenges, make impactful decisions, and gain insights into the complexities of addressing this global issue. Join us in raising awareness and inspiring positive change. 
+                        Play now and be part of the solution!
+                     </p>
+                </div>
+                <a href="HarvestHorizon/loading.html" class="navbuttons"> PLAY OUR GAME</a>
+            </div>
+        </div>
+
+      
+
+
+
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("stickynavbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+                navbar.classList.add("backgroundnavbar");
+              } else {
+                navbar.classList.remove("sticky");
+                navbar.classList.remove("backgroundnavbar");
+              }
+            }
+            </script>
+    </body>
+</html>
