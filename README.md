@@ -14,3 +14,6 @@ hour hackathon I wasn't able to adjust for statistics, and scoring. Thus in the 
 I used HTML and CSS for the majority of the process, yes every element you see is HTML and CSS as those are the languages I was the most comfortable in. I do hope to maybe transition the UI to another language in the future maybe React or the like. 
 
 
+P.S: if you want to know
+
+Initially I was part of a group of 3 other people and we were planning on making a 2d game simulator, but about 75% of the way they decided it was time to end their hackathon so I basically had to do all of this in about 9 hours so if I made some mistakes in this README.md I was very sleep deprived making this (Panera Bread's strawberry  mint lemonade was the only thing keeping me up this long 🫡). But thanks for checking out the most rushed hackathon project I have ever done!
